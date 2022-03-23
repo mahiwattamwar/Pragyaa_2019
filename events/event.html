@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta charset="UTF-8">
+	<title>events</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+	<link rel="stylesheet" type="text/css" href="swiper.min.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link href="../css/bootstrap.min.css" rel="stylesheet">
+      <link href="../css/mdb.min.css" rel="stylesheet">
+      <link rel="shortcut icon"  href="../images/pragyaalogo.png">
+      <link href='https://fonts.googleapis.com/css?family=Audiowide|Iceland|Monoton|Pacifico|Press+Start+2P|Vampiro+One' rel='stylesheet' type='text/css'>
+      <link href="../css/style.css" rel="stylesheet">
+      <style type="text/css">
+      .hexagon{
+        position: absolute;
+        top: 150px;
+        left: 150px;
+        transform: translate(-50%,-50%) rotate(120deg);
+        width: 150px;
+        height: 200px;
+        background: transparent;
+        border-radius: 50%;
+        overflow: hidden;
+        z-index: 111;
+
+      }
+      .hexagon-inner{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        transform:rotate(-60deg);
+        overflow: hidden;
+        background: transparent;
+
+      }
+            .hexagon-inner-in{
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        transform:rotate(-60deg);
+        overflow: hidden;
+        background: black;
+        cursor: pointer;}
+
+          .md{
+              position: absolute;
+              top: 25%;
+              left: 25%;
+              opacity: 0;
+           
+            z-index: 1;
+          }
+          .blu{
+            position: absolute;
+            background: #22adff ;
+            width: 100%;height: 100%;
+            opacity: 0;
+             filter: blur(500px);
+          }
+      </style>
+</head>
+<body style="overflow: hidden;" >
+  <div class="blu"></div>
+  <div class="md">
+    
+        <div class="hexagon codester">
+            <div  class="hexagon-inner">
+              <div  class="hexagon-inner-in" style="background: url('images/codester.jpg');  background-position: center; background-size: 150%; background-repeat: no-repeat;">
+              </div>
+            </div>
+
+      </div>
+        <div class="hexagon conference" style="position:absolute;top: 300px; left: 250px;">
+            <div  class="hexagon-inner">
+              <div  class="hexagon-inner-in" style="background: url('images/conference.jpg');  background-position: center; background-size: 150%; background-repeat: no-repeat;"></div>
+            </div>
+            
+      </div>
+              <div class="hexagon texplorer" style="position: absolute;left: 350px; top: ">
+            <div  class="hexagon-inner">
+              <div  class="hexagon-inner-in" style="background: url('images/texplorer.jpg');  background-position: center; background-size: 150%; background-repeat: no-repeat;"></div>
+            </div>
+            
+      </div>
+      <div class="hexagon chemtek" style="position: absolute;left: 450px; top:300px; ">
+            <div  class="hexagon-inner">
+              <div  class="hexagon-inner-in" style="background: url('images/chemtrek.jpg');  background-position: center; background-size: 150%; background-repeat: no-repeat;"></div>
+            </div>
+      </div>
+      <div class="hexagon elechroma" style="position: absolute;left: 550px; ">
+            <div  class="hexagon-inner">
+              <div  class="hexagon-inner-in" style="background: url('images/electromar.jpg');  background-position: center; background-size: 150%; background-repeat: no-repeat;">></div>
+            </div>
+      </div>
+      <div class="hexagon mechatron" style="position: absolute;left: 250px;top: 0px; ">
+            <div  class="hexagon-inner">
+              <div  class="hexagon-inner-in" style="background: url('images/mechatron.jpg');  background-position: center; background-size: 150%; background-repeat: no-repeat;">></div>
+            </div>
+      </div>
+      <div class="hexagon cenfest" style="position: absolute;left: 450px;top: 0px; ">
+            <div  class="hexagon-inner">
+              <div  class="hexagon-inner-in" style="background: url('images/cenfest.jpg');  background-position: center; background-size: 150%; background-repeat: no-repeat;"></div>
+            </div>
+      </div>
+
+</div>
+
+
+	<div class="swiper-container ">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide Creative">
+      	<div class="imgbx">
+      		<img src="aman.jpg">
+      	</div>
+      	<div class="details"><span>Creative Events</span></div>
+      </div>
+      <div class="swiper-slide online">
+        <div class="imgbx">
+          <img src="aman.jpg">
+        </div>
+        <div class="details"><span>Online Events</span></div>
+      </div>
+      <div class="swiper-slide dept">
+        <div class="imgbx">
+          <img src="aman.jpg">
+        </div>
+        <div class="details"><span>Departmetal events</span></div>
+      </div>
+      <div class="swiper-slide Robotics">
+        <div class="imgbx">
+          <img src="aman.jpg">
+        </div>
+        <div class="details"><span>Robotics</span></div>
+      </div>
+      <div class="swiper-slide Gaming">
+        <div class="imgbx">
+          <img src="aman.jpg">
+        </div>
+        <div class="details"><span>Gaming zone</span></div>
+      </div>
+      <div class="swiper-slide exhibition">
+        <div class="imgbx">
+          <img src="aman.jpg">
+        </div>
+        <div class="details"><span>Exhibition</span></div>
+      </div>
+  </div>
+  
+    <div class="swiper-pagination" style="transform: translateY(-20px);"></div>
+  </div>
+<div style="color: white; position: absolute; bottom: 0px; right: 0px; font-family:Georgia; font-size: 20px">
+
+  Click and drag the card
+<hr>
+</div>
+
+<!--nav bar starts-->
+  <div class="content">
+      <div class="buttons">
+         <div id="nav-container" class="open">
+            <div class="toggle-icon button" id="one"  >
+                  <span class="bar button" id="one" ></span>
+                  <span class="bar button" id="one" ></span>
+                  <span class="bar button" id="one" ></span>
+             </div>
+          </div>
+        </div>
+  </div>
+<!-- nav content-->
+  <div id="modal-container" class="is-blurred">
+      <div class="modal-background">
+          <div class="modal">
+             <div id="container">
+                  <p id="navDetails"><a href="../index.html">Home</a></p><hr>
+                   <p id="navDetails"><a href="event.html">Events</a></p><hr>
+                     <p id="navDetails"><a href="../hospitality.html">Hospitality</a></p><hr>
+                       <p id="navDetails"><a href="../spons.html">Sponsors</a></p><hr>
+                     <p id="navDetails"><a href="../about.html">About Us</a></p><hr>
+                  <p id="navDetails"><a href="../contact.html">Contact Us</a></p>
+              </div>
+              <div style="position: absolute; top: 5%; left: -15%;">
+                  <img src="../images/pragyaalogo.png" width="20%;">
+              </div>
+          </div>
+    </div>
+  </div>
+
+  <!--//navigation bar-->
+   <script type="text/javascript" src="swiper.min.js"></script>
+   <script>
+    
+  </script>
+ <script type="text/javascript" src="../js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="../js/popper.min.js"></script>
+    <script type=".text/javascript" src="../js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../js/mdb.min.js"></script>
+    <script type="text/javascript" src="../js/script.js"></script>
+   
+<script type="text/javascript">
+      var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 0,
+        stretch: 0,
+        depth: 50,
+        modifier: 3,
+        slideShadows : true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+ });
+
+</script>
+ <script type="text/javascript" src="js/index.js"></script>
+</body>
+</html>

@@ -1,0 +1,199 @@
+@font-face
+{
+	font-family: iceland;
+	src:url(Iceland.ttf);
+}
+body
+{
+	
+	font-family: sans-serif;
+	background: #000;
+	overflow-x: hidden;
+
+
+}
+
+.header
+{
+	width: 90%;
+	height: 150px;
+	left: 5%;
+	position: relative;
+	margin-top: 20px;
+	background: #000;
+	border: solid 5px #fff;
+	box-shadow: 0 0 5px #fff, 0 0 10px #fff,  0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 5px #fff inset, 0 0 10px #fff inset,  0 0 20px #228DFF inset, 0 0 35px #228DFF inset, 0 0 40px #228DFF inset, 0 0 50px #228DFF inset ;
+
+
+}
+.header h1
+{
+	font-family: iceland;
+	color: #fff;
+	text-align: center;
+	line-height: 0px;
+	font-size: 100px;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff,  0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+}
+.row
+{
+	width: 100%;
+	position: relative;
+	left: 5%;
+	height: 380px;
+	padding-top:50px;
+
+	
+	
+
+}
+
+.column
+{
+	width: 25%;
+	float: left;
+	
+
+}
+
+.card
+{
+	height: 350px;
+	width: 250px;
+	
+	transform-style: preserve-3d;
+	perspective: 600px;
+	transition: 0.5s;
+
+
+
+}
+
+.card .front 
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	backface-visibility: hidden;
+	opacity: 1;
+	transform: rotateX(0deg);
+	transition: 0.5s;
+	box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff; 
+
+}
+
+.card:hover .front
+{
+ transform: rotateX(-180deg);
+} 
+
+.card .back 
+{
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	height: 100%;
+	width: 100%;
+	backface-visibility: hidden;
+	opacity: 1;
+	transform: rotateX(180deg);
+	padding: 10px;
+	
+	background: #000;
+	box-shadow:0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+	transition: 0.5s;
+
+}
+
+.card .back:before
+{
+	content: '';
+	position: absolute;
+	left: 0%;
+	top: 0;
+	width: 50%;
+	height: 100%;
+	background: rgba(255,255,255,0.1);
+}
+
+.card:hover .back
+{
+ transform: rotateX(0deg);
+} 
+
+
+
+.card .front img
+{
+	height: 100%;
+	width: 100%;
+}
+
+.card .back .details
+{
+	text-align: center;
+    color: #fff;
+    position: relative;
+
+    top: 30%;
+
+}
+
+hr
+{
+	border-radius: 50%;
+	background: #fff;
+	height: 2px;
+	width: 91%;
+	position: relative;
+	box-shadow: 0 0 5px #228DFF, 0 0 10px #228DFF, 0 0 15px #228DFF;
+}
+
+.comity
+{
+	position: relative;
+    border: solid 5px #fff;
+	box-shadow: 0 0 5px #fff, 0 0 10px #fff,  0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 5px #fff inset, 0 0 10px #fff inset,  0 0 20px #228DFF inset, 0 0 35px #228DFF inset, 0 0 40px #228DFF inset, 0 0 50px #228DFF inset ;
+    width: 60%;
+	height: 100px;
+	left: 20%;
+	margin-top: 50px;
+
+}
+
+.comity h1
+{
+	font-family: iceland;
+	color: #fff;
+	text-align: center;
+	line-height: 30px;
+	font-size: 50px;
+	text-shadow: 0 0 5px #fff, 0 0 10px #fff,  0 0 20px #228DFF, 0 0 35px #228DFF, 0 0 40px #228DFF, 0 0 50px #228DFF, 0 0 75px #228DFF;
+}
+
+.maincard
+{
+	width: 100%;
+	
+	margin-top: 60px;
+}
+
+.maincard .card
+{
+    position: relative; 
+	left: 42%;
+
+
+}
+
+.next
+{
+	height: 300px;
+	width: 220px;
+	
+	transform-style: preserve-3d;
+	perspective: 600px;
+	transition: 0.5s;
+}

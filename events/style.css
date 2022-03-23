@@ -1,0 +1,213 @@
+@font-face
+{
+  font-family: bat;
+  src: url(batmfa.ttf);
+}
+body 
+{
+ background: #000;
+ font-family: Helvetica Neue, Helvetica, Arial, bat, sans-serif;
+ font-size: 14px;
+ color:#000;
+ margin: 0;
+ padding: 0;
+ }
+.swiper-container 
+{
+ width: 100%;
+ padding-top: 100px;
+ padding-bottom: 50px;
+ height: 500px;
+}
+.swiper-slide 
+{
+ background-position: center;
+ background-size: cover;
+ width: 220px;
+ height: 350px;
+ background: transparent;
+
+}
+
+.swiper-slide .imgbx
+{
+  
+  width: 100%;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 3px solid white;
+
+}
+
+.swiper-slide .imgbx img
+{
+  width: 100%;
+}
+
+.swiper-slide .details
+{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  opacity: 1;
+ color: #fff;
+   font-family: bat;
+  height: 80px;
+  font-size: 2em;
+  position: absolute; bottom: 3%;
+   left: 0%;
+   background: transparent; 
+   border: none;
+          box-shadow: none;
+
+}
+.swiper-slide .imgbx h3
+{
+  margin: 0;
+  padding: 0;
+  
+  text-align: center;
+  
+  
+}
+.swiper-slide:hover .details
+{
+  opacity: 1;
+ color: #000;
+   font-family: bat;
+   font-size: 2em;
+   line-height: 1.2em;
+   background:rgb(256,256,256,0.5);
+   animation: animateDetails 1s forwards;
+    border-radius: 10px;
+}
+
+.swiper-slide:hover .imgbx
+{  border: 4px solid white;
+  box-shadow: 5px 0px 5px  #fff,5px 0px 5px  #fff,0px 0px 5px  #fff,0px 0px 5px  #fff,;
+  box-shadow: 5px 0px 10px  #fff,5px 0px 10px  #fff,0px 0px 10px  #fff,0px 0px 10px  #fff,;
+  box-shadow: 5px 0px 30px  #B6FF00,0px 0px 30px  #B6FF00,0px 0px 30px  #B6FF00,0px 0px 40px  #B6FF00;
+
+  animation: animate 1s forwards;
+  border-radius: 10px;
+
+
+  
+}
+
+@keyframes animate
+{
+  0%
+  {
+    margin-top: 0px;
+  }
+  100%
+  {
+    margin-top: -10px;
+  }
+}
+@keyframes animateDetails{
+   0%
+  {
+    margin-top: 0px;
+  }
+  100%
+  {
+    margin-top: -15px;
+  }
+}
+ #modal_con_menu{
+           background: ; 
+           height: 120px;
+           cursor: pointer;
+           font-size: 2.6em;
+           font-weight: 500;
+           text-align: center;
+           padding-top: 20%;
+           border: 3px solid white;
+           color: white;
+           
+        }
+        #mod_detail_1{
+          width: 105%;
+          height: 91%;
+           position: absolute;
+          background:black;
+          top: 9%;
+          left: 00%;
+          text-align: justify;
+           font-size:30px;
+          font-weight: 500;
+          color: white;
+          padding: 35px;
+
+        }
+        
+        .m1:hover{
+          border: 3px solid white;
+          box-shadow: 0 0 10px #fff, 0 0 20px #228DFF,0 0 20px #228DFF, 0 0 20px #228DFF, 0 0 10px  #fff inset, 0 0 20px #228DFF inset,0 0 20px #228DFF inset, 0 0 20px #228DFF inset, 0 0 30px #228DFF inset, 0 0 30px #228DFF inset;
+          text-shadow: 0 0 10px #fff, 0 0 20px #228DFF,0 0 20px #228DFF;
+   
+        }
+         .m2:hover{
+          border: 3px solid white;
+             box-shadow: 0 0 10px #fff, 0 0 20px #b269f7,
+    0 0 20px #b269f7, 0 0 20px #b269f7, 0 0 30px #b269f7, 0 0 30px #b269f7, 0 0 10px  #fff inset, 0 0 20px #b269f7 inset,
+    0 0 20px #b269f7 inset, 0 0 20px #b269f7 inset, 0 0 30px #b269f7 inset, 0 0 30px #b269f7 inset;
+  
+       text-shadow: 0 0 10px #fff, 0 0 20px #b269f7,
+    0 0 20px #b269f7, 0 0 20px #b269f7, 0 0 30px #b269f7, 0 0 30px #b269f7;
+         }
+         .m3:hover{
+          border: 3px solid white;
+             box-shadow: 0 0 10px #fff, 0 0 20px #fffc04,
+    0 0 20px #fffc04, 0 0 20px #fffc04, 0 0 30px #fffc04, 0 0 30px #fffc04, 0 0 10px  #fff inset, 0 0 20px #fffc04 inset,
+    0 0 20px #fffc04 inset, 0 0 20px #fffc04 inset, 0 0 30px #fffc04 inset, 0 0 30px #fffc04 inset;
+  
+       text-shadow: 0 0 10px #fff, 0 0 20px #fffc04,
+    0 0 20px #fffc04, 0 0 20px #fffc04, 0 0 30px #fffc04, 0 0 30px #fffc04;
+         }
+         .m4:hover{
+          border: 3px solid white;
+             box-shadow: 0 0 10px #fff, 0 0 20px #f98235,
+    0 0 20px #f98235, 0 0 20px #f98235, 0 0 30px #f98235, 0 0 30px #f98235, 0 0 10px  #fff inset, 0 0 20px #f98235 inset,
+    0 0 20px #f98235 inset, 0 0 20px #f98235 inset, 0 0 30px #f98235 inset, 0 0 30px #f98235 inset;
+  
+       text-shadow: 0 0 10px #fff, 0 0 20px #fffc04,
+    0 0 20px #f98235, 0 0 20px #f98235, 0 0 30px #f98235, 0 0 30px #f98235;
+         }
+         .c1{
+  border: 3px solid white;
+          box-shadow: 0 0 10px #fff, 0 0 20px #228DFF,0 0 10px  #fff inset, 0 0 20px #228DFF inset,0 0 20px #228DFF inset;        
+         }
+         .c2{
+                    border: 3px solid white;
+             box-shadow: 0 0 10px #fff, 0 0 10px  #fff inset, 0 0 20px #b269f7 inset,
+    0 0 20px #b269f7 inset, 0 0 20px #b269f7 inset;
+         }
+         .c3{
+                    border: 3px solid white;
+             box-shadow: 0 0 10px #fff, 0 0 20px #fffc04,
+     0 0 10px  #fff inset, 0 0 20px #fffc04 inset,
+    0 0 20px #fffc04 inset, 0 0 20px #fffc04 inset;
+         }
+         .c4{
+             border: 3px solid white;
+             box-shadow: 0 0 10px #fff, 0 0 20px #f98235,
+    0 0 20px #f98235, 0 0 20px #f98235, 0 0 10px  #fff inset, 0 0 20px #f98235 inset,
+    0 0 20px #f98235 inset; 
+    background-color: black;      
+         }
+                 .mod{
+          opacity: 0; position: absolute;width: 0%; height: 0%; background: black; z-index: 1111;
+        }     
+        .close{
+           font-size: 50px; z-index: 11111; position: absolute; top: 0px; right: 0px; color: white;
+ text-shadow: 0 0 0.1em rgba(255,255,255,1) ,  0 0 0.15px rgba(255,255,255,1) , 0 0 0.2em #22adff , 0 0 0.3em #22adff, 0 0 0.3em #22adff , 0 0 0.4em #22adff, 0 0 0.5em #22adff ;
+;z-index: 11;
+        }
+        #mod1{
+          background-color: black; width: 100%; height: 100%;padding-top: 40px;
+        }
